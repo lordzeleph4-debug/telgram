@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # =========================
 # CONFIG
 # =========================
-TOKEN = os.getenv("TOKEN")  # ⚠️ obligatoire, ne jamais mettre le token en dur
+TOKEN = os.getenv("8752436181:AAGRBzSlm-sSgL8CQMIRbScbReImpGj5eJo")  # ⚠️ obligatoire, ne jamais mettre le token en dur
 CSV_FILE = "caf.csv"
 
 # Lien Dropbox direct (dl=1)
@@ -115,3 +115,4 @@ app.add_handler(CommandHandler("lookup", lookup))
 
 print("🚀 Bot lancé...")
 app.run_polling(drop_pending_updates=True)
+
